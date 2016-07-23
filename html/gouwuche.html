@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="../css/commen.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/gouwuche.css"/>
+		<script src="../js/jquery-1.12.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/gouwuche.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+		<body>
+		<!--top-->
+		<div id="top-w">
+			<div id="top">
+				<span id="top-Left">
+					<!--...-->
+					<span id="top-Left-1">
+						<i id="top-Left-box">图</i>
+						<a href="#">
+							上海
+							<i class="top-Left-box1">图</i>
+						</a>
+						
+						<div id="boxOne">
+							<h5>热门城市:</h5>
+							<ul class="b-one">
+								<li><a href="#">上海</a></li>
+								<li><a href="#">广州</a></li>
+								<li><a href="#">北京</a></li>
+								<li><a href="#">苏州</a></li>
+								<li><a href="#">南京</a></li>
+								<li><a href="#">深圳</a></li>
+								<li><a href="#">成都</a></li>
+							</ul>
+							<h5>选择城市：</h5>
+							<ul class="b-tow">
+								<li><a href="#">上海</a></li>
+								<li><a href="#">广州</a></li>
+								<li><a href="#">北京</a></li>
+								<li><a href="#">苏州</a></li>
+								<li><a href="#">南京</a></li>
+								<li><a href="#">深圳</a></li>
+								<li><a href="#">成都</a></li>
+								<li><a href="#">苏州</a></li>
+								<li><a href="#">南京</a></li>
+								<li><a href="#">深圳</a></li>
+								<li><a href="#">成都</a></li>
+							</ul>
+							
+						</div>
+					</span>
+					<!--...-->
+					<i>满百包邮（环郊内）</i>
+					<a href="#" class="top-Left-box2">星夜达</a>
+				</span>
+				<ul id="top-Right">
+					<li class="top-Right-1">
+						<a href="denglu.html" class="top-Right-1-1">[ 登录 ]</a>
+						<a href="zhuce.html">[ 注册有惊喜 ]</a>
+					</li>
+					<li>|</li>
+					<!--...-->
+					<li class="top-Right-2">
+						果园公告
+						<div id="boxTwo">
+							<ul class="boxTwo-1">
+								<li><a href="#" >全仓充值活动调整公告</a><em>new</em></li>
+								<li><a href="#" >全仓满赠活动停止公告</a><em>new</em></li>
+								<li><a href="#" >全仓充值商品调整</a><em>new</em></li>
+							</ul>
+							<div class="boxTwo-2"><a href="#">查看更多 ></a></div>
+						</div>
+					</li>
+					<!--...-->
+					<li>|</li>
+					<li class="top-Right-3"><a href="#">卡劵兑换</a></li>
+					<li>|</li>
+					<!--...-->
+					<li class="top-Right-4">
+						<i >图</i>手机果园
+						
+						<div class="box-three">
+							<p class="box-three-1"><span>下载果园app，</span>即享果园特价商品</p>
+							<dl class="box-three-2">
+								<dt><img src="../img/guan_ewcode2.jpg"/></dt>
+								<dd>
+									<a href="#"><img src="../img/guan_btn01.jpg"/></a>
+									<a href="#"><img src="../img/guan_btn02.jpg"/></a>
+								</dd>
+							</dl>
+							<dl class="box-three-3">
+								<dt><img src="../img/guan_ewcode1.jpg"/></dt>
+								<dd>
+									<em>关注果园微信</em>
+									<p>优惠信息实时掌握</p>
+								</dd>
+							</dl>
+						</div>
+						
+					</li>
+					<!--...-->
+					<li>|</li>
+					<li class="top-Right-5"><i>图</i>400-720-0770</li>
+				</ul>
+			</div>
+		</div>
+		<!--cintent-->
+		<div class="cintent-w">
+			<div class="cintent">
+				<div class="cintent-div">
+					<div class="cintent-Left">
+						<a href="index.html"><img src="../img/logo.png"/></a>
+					</div>
+	
+					<div class="buzhou">
+						<ul class="buzhou-1">
+							<li class="buzhou-car1">
+								<span>1</span>
+								<p>我的购物车</p>
+							</li>
+							<li class="buzhou-car2">
+								<span>2</span>
+								<p>确认订单信息</p>
+							</li>
+							<li class="buzhou-car3">
+								<span>3</span>
+								<p>成功提交订单</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</div>	
+		<!--购物车产品-->
+		<div class="cart">
+			
+			<div class="cart-top">
+				<div class="mycart">
+					<p class="mycart-one">我的购物车</p>
+					<a href="" class="mycart-right">继续逛逛&gt;</a>
+				</div>
+			</div>
+			
+			
+			<div class="cartmain">
+				<div class="cart-head">
+					<div class="cart-s">
+						<!--<p class="select selected"></p><input type="hidden" value="" />
+                <span>全选</span>-->
+					</div>
+					<input type="hidden">
+					<div class="cart-good">
+						<span>商品</span>
+					</div>
+					<div class="cart-spec">
+						<span>规格</span>
+					</div>
+					<div class="cart-price">
+						<span>单价(元)</span>
+					</div>
+					<div class="cart-number">
+						<span>数量</span>
+					</div>
+					<div class="cart-sum">
+						<span>原价(元)</span>
+					</div>
+					<div class="cart-action">
+						<span>操作</span>
+					</div>
+				</div>
+				<!--购物车内容-->
+				<div class="cart-order">
+					<div class="cart-order-kong">
+						<p>没有东西，继续逛逛</p>
+					</div>
+				</div>
+				<button>提交订单</button>
+				
+			</div>
+		</div>
+		
+		<!--浏览历史-->
+			<div class="no-history"></div>
+			<div class="look-history">
+				<div class="scrollbar">
+					<ul class="look-history-menu">
+						<li class="looked">
+							<p>你最近浏览过的商品</p>
+						</li>
+						<li>
+							<p class="p-noborder">你可能感兴趣的商品</p>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="look-history-con">
+					<div class="wrap">
+						<div class="wrap-one">
+							<ul class="slidee">
+								<li class="active">
+									<a href="#" target="_blank">
+										<img src="../img/1-270x270-11227-W1PPXPD2.jpg">
+										<p class="history-name">芒果</p>
+										<p class="history-price">￥99.00 / 4斤</p>
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="../img/1-270x270-11288-U7SD5UDH.jpg">
+										<p class="history-name">李子</p>
+										<p class="history-price">￥29.00 / 200克</p>
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="../img/1-270x270-11331-WY3DKPXX.jpg">
+										<p class="history-name">奇异果</p>
+										<p class="history-price">￥99.00 / 20个</p>
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="../img/1-270x270-11338-7UHS9U12.jpg">
+										<p class="history-name">葡萄</p>
+										<p class="history-price">￥38.90 / 6个简装版</p>
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<img src="../img/1-270x270-11514-3AH47WT5.jpg">
+										<p class="history-name">萍果</p>
+										<p class="history-price">￥69.00 / 6个</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+
+				<div class="cl"></div>
+			</div>
+		<!--content-->
+		<div class="content-w">
+			<div class="content">
+				<ul class="cintent-top">
+					<li><img src="../img/c1.png" /></li>
+					<li><img src="../img/c2.png" /></li>
+					<li><img src="../img/c3.png" /></li>
+					<li><img src="../img/c4.png" /></li>
+				</ul>
+				<div class="cintent-centent">
+					
+					<div class="cintent-centent-left">
+						<div><img src="../img/c-logo1.jpg"/></div>
+						<div class="s-left-1"><img src="../img/c-logo2.jpg"/></div>
+						<div class="s-left-2">
+							<span>服务时间</span>
+							08:00-22:00
+						</div>
+					</div>
+					
+					<ul class="cintent-centent-centent">
+						<li>
+							<img src="../img/guan_ewcode1.jpg" />
+							<span>天天果园官方微信</span>
+						</li>
+						<li>
+							<img src="../img/guan_ewcode2.jpg"/>
+							<span>天天果园APP</span>
+						</li>
+					</ul>
+					
+					<ul class="cintent-centent-Right">
+						<li>
+							<h4>购物指南</h4>
+							<a href="#">新用户注册</a>
+							<a href="#">在线下单</a>
+							<a href="#">支付方式</a>
+						</li>
+						<li>
+							<h4>配送说明</h4>
+							<a href="#">运费说明</a>
+							<a href="#">运费方式</a>
+							<a href="#">发票说明</a>
+						</li>
+						<li>
+							<h4>售后服务</h4>
+							<a href="#">退换货规则</a>
+							<a href="#">服务保障承诺</a>
+							<a href="#">验货与签收</a>
+						</li>
+						
+						<li>
+							<h4>企业服务</h4>
+							<a href="#">企业订购</a>
+							<a href="#">公司简介</a>
+							<a href="#">定制专区</a>
+						</li>
+					</ul>
+				</div>
+				<div class="cintent-botton">
+					<p>版权所有 © 2015天天果园  保留所有权利 | 沪ICP备12042163</p>
+					<p>天天果园&nbsp;&nbsp;鲜果网购</p>
+					<div class="cintent-botton-1">
+					<a href="#"><img src="../img/guan_shgs.gif"/></a>
+					<a href="#"><img  class="two"  src="../img/guan_wgdjp.png"/></a>
+				</div>
+				</div>				
+			</div>
+		</div>
+		
+		<!--右下侧导航栏-->
+		<ul class="fixed">
+			<li>卡卷兑换</li>
+			<li><img src="../img/5678c6986b749.png"/></li>
+			<li>TOP</li>
+		</ul>
+	</body>
+</html>

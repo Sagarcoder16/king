@@ -1,0 +1,55 @@
+/*列表页*/
+.cintent .cintent-nav{width: 467px;height: 80px;padding-left: 35px;float: left;}
+.cintent .cintent-nav li{width: 91px;height: 80px;float: left;line-height: 92px;}
+.cintent .cintent-nav li a{
+	display: inline-block;
+	width:40px;
+	height: 40px;
+	line-height: 20px;
+	text-align: center;
+	padding: 0 25px;
+	border-right:1px solid #eee;
+	font-size: 14px;
+}
+.cintent .cintent-nav li a:hover{background-color:#eee;}
+.cintent .cintent-nav .cintent-nav-two{width: 57px;border-right: none;}
+.cintent .cintent-Right{width: 240px;height: 70px;float: right;margin:5px 0;}
+.cintent .cintent-Right .cintent-Right-1{width: 180px;height: 50px;margin-top: 20px;float: left;}
+.cintent .cintent-Right input{width: 138px;height: 17px;border: none;padding: 5px 3px;}
+.cintent .cintent-Right button{width: 20px;height: 28px;padding: 2px 6px;border: none;}
+.cintent .cintent-Right .cintent-Right-1 div{color:#999;border-top: 1px solid #999999;}
+.cintent .cintent-Right .cintent-Right-1 div a{margin-right: 5px;}
+.cintent .cintent-Right .cintent-Right-1 div a:hover{text-decoration:underline}
+.cintent .cintent-Right .cintent-Right-2{float:left;}
+
+/*筛选器*/
+.select-w{width: 100%;}
+.select{width: 1280px;height: 257px;padding-top: 26px;margin: 0 auto;}
+.select-div{width: 1280px;height: 24px;padding: 12px 0 6px 0;border-bottom: 1px solid #BBBBBB;}
+.select-div p{display:inline-block;width: 28px;height: 24px;margin-right: 20px ;font-size: 14px;color: #999;line-height: 24px;float: left;}
+.select-div div{float: left;}
+.select-div .select-all a{display: block;width: 46px;height: 24px;text-align: center;line-height: 24px;font-size: 14px;background-color: #7DAF57;color: #FFFFFF;}
+.select-div .select-select a{display: block;width: 56px;height: 24px;padding: 0 9px;font-size: 14px;color: #555555;text-align: left;}
+.select-div .select-select1 a{display: block;width: 85px;height: 24px;padding: 0 9px;font-size: 14px;color: #555555;text-align: left;}
+
+/*列表*/
+.liebiao-w{width: 100%;}
+.liebiao{width: 1280px;height: 495px;margin: 27px auto 0;}
+.liebiao-left{float: left;width: 1000px;height: 324px;margin-bottom: 92px;}
+.liebiao-left ul li{float: left;width: 244px;height: 316px;margin: 0 4px 4px 4px;}
+
+
+.liebiao-one{width: 244px;height: 316px;margin-bottom: 6px;}
+.liebiao-one .liebiao-img a img{width: 244px;height: 244px;}
+.liebiao-a{width: 241px;height: 24px;margin: 0 0 5px 3px;font-size: 14px;}
+.liebiao-a .liebiao-a-1{display: inline-block;width: 34px;height: 18px;margin-right: 3px;font-size: 12px;color: #FFFFFF;background-color: #FFA500;text-align: center;}
+.liebiao-a .liebiao-a-2{display: inline-block;float: right;width: 50px;height: 24px;margin-right: 3px;color: #999999;}
+
+.liebiao-b{width: 244px;height: 34px;padding-top: 3px;}
+.liebiao-b p{width: 197px;height: 22px;padding-left: 3px;float: left;display: block;line-height: 22px;}
+.liebiao-b p span{display: inline-block;width: 21px;height: 20px;padding: 0 5px;border: 1px solid #999;border-radius: 3px;color: #999999;}
+.liebiao-b img{float: left;}
+
+
+.liebiao-right{float: left;width: 258px;height: 495px;padding-left: 20px;}
+.liebiao-right p{color: #7DAF57;font-size: 14px;display: block;width: 258px;height: 39px;border-bottom: 1px solid #999999;line-height: 40px;}

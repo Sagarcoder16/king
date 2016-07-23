@@ -1,0 +1,33 @@
+/*注册页面*/
+.yanzheng-w{width: 100%;height: auto;}
+.yanzheng{width: 1000px;height: 592px;margin: 50px 140px;}
+.yanzheng p{display:block;height:28px;font-size: 20px;padding: 15px 0 16px 0; border-bottom: 1px solid #DDDDDD;color: #BBBBBB;margin-bottom: 36px;}
+
+.yanzheng-Left{width: 500px;height:400 ;float: left;position: relative;border: 1px solid #DDDDDD;}
+.yanzheng-Left div{width: 153px;height: 48px;border: 1px solid #64A131;border-radius:4px;text-align: center;position: absolute;left: 35%;bottom: 5%;}
+.yanzheng-Left div a{font-size: 18px;color: #64A131;line-height: 48px;}
+
+
+
+
+
+
+.yanzheng-Right{width: 440px;height: 322px;float: left;margin-left: 55px;}
+.yanzheng-Right ul li{width: 440px;height: 40px;margin-bottom: 26px;}
+.yanzheng-Right ul li span{display: inline-block;width: 96px;height: 40px;text-align: right;line-height: 40px;font-size: 16px;color: #BBBBBB;float: left;}
+.yanzheng-Right ul li i{padding-left: 42px;width: 300px;height: 40px;float: left;display: block;}
+.yanzheng-Right ul li i input{width: 274px;height: 26px;padding: 6px 12px;}
+.yanzheng-Right ul .yanzhen input{width: 246px;}
+
+.yanzheng-Right ul .sjyanzhen input{background-color: #EEEEEE; border: none;border: 1px solid #BBBBBB;}
+.yanzheng-Right ul .sjyanzhen i{position: relative;}
+.yanzheng-Right ul .sjyanzhen i div{position: absolute;top: 0 ;right: 0;width: 98px;height: 38px;background-color:#DDDDDD;margin-top: 1px;}
+.yanzheng-Right ul .sjyanzhen i div span{text-align: center;font-size: 14px;color: #000000;}
+.yanzheng-Right ul .tijiao{height: 38px;}
+
+
+.yanzheng-Right ul .tijiao div{float: right;width: 300px;height: 38px;}
+.yanzheng-Right ul .tijiao #tijiao{display:inline-block;padding-right: 10px;width: 146px;padding-top: 0;}
+.yanzheng-Right ul .tijiao button{border: none;border: 1px solid #64A131;width: 143px;height: 38px;text-align: center;border-radius:5px ;}
+.yanzheng-Right ul .tijiao .bt1{background-color: #64A131;color: #F1F1F1;font-size: 18px;}
+.yanzheng-Right ul .tijiao .bt2{background-color:azure;color: #64A131;font-size: 18px;border: 1px solid #64A131;}
